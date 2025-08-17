@@ -11,7 +11,7 @@ public class CarroTestes01 {
         carro.cor = "Vermelho";
         carro.marca = "Ferrari";
         carro.rodas = 4;
-
+        //Atributos
         carro2.cor = "Amarelo";
         carro2.marca = "Porsche";
         carro2.rodas = 4;

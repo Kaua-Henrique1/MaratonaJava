@@ -16,3 +16,16 @@
 - Sempre ter bem definido a classe.
 - Exemplo: Classe professor não deve está junto com a do Aluno.
 
+## **Metodo**
+
+- Se o seu metodo tem mais de 2 paramentros, e considerado uma boa pratica, reduzir em mais paramentros.
+- Estrutura de um metodo:
+  -     public double divideDoisNumeros(double num1, double num2){
+        if (num2 == 0){
+            return 0;
+        }
+        return num1 / num2;
+
+  -       Calculadora calculadora = new Calculadora();
+        double resultado = calculadora.divideDoisNumeros(20, 2);
+        System.out.println(resultado);
