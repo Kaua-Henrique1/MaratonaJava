@@ -10,7 +10,7 @@ public class Aula06Arrays01 {
 
         //Forma de declarar uma lista
         int[] idades1 = {1, 2, 3, 4, 5, 6};
-        //Forma simplificar de manipular uma lista
+        //Forma simplificada de manipular uma lista
         for (int i: idades1){
             System.out.println(i);
         }

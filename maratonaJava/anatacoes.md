@@ -52,6 +52,8 @@ Quando um objeto é passado para um método, o método recebe essa referência e
 
 Exemplos de objetos: `String`, arrays, classes criadas pelo programador.
 
+Ter cuidado para mudar a variaveis do objeto depois que ja tenha passado por referencia. O melhor a se fazer e criar uma copiar e retornar essa copia como um novo objeto.
+
 ---
 
 ##  Resumindo

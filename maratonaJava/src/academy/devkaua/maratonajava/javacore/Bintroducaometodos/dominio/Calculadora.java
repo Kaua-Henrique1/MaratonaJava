@@ -29,4 +29,22 @@ public class Calculadora {
         }
         System.out.println(num1 / num2);
     }
+
+    public void somaArray(int [] numero) {
+        int somar = 0;
+        for (int num : numero ) {
+            somar += num;
+        }
+        System.out.println(somar);
+    }
+
+    //Outra forma de representar a mesma coisa que esta acima.
+    //So muda na chamada.
+    public void somaVarArgs(int... numeros) {
+        int somar = 0;
+        for (int num : numeros ) {
+            somar += num;
+        }
+        System.out.println(somar);
+    }
 }

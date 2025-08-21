@@ -3,12 +3,11 @@ package academy.devkaua.maratonajava.javacore.Bintroducaometodos.test;
 import academy.devkaua.maratonajava.javacore.Bintroducaometodos.dominio.Estudante;
 import academy.devkaua.maratonajava.javacore.Bintroducaometodos.dominio.ImpressoraEstudante;
 
-public class EstudanteTest01{
+public class EstudanteTest02 {
     public static void main(String[] args) {
 
         Estudante estudante01 = new Estudante();
         Estudante estudante02 = new Estudante();
-        ImpressoraEstudante imprime = new ImpressoraEstudante();
 
         estudante01.idade = 18;
         estudante01.nome = "Kaua";
@@ -18,13 +17,10 @@ public class EstudanteTest01{
         estudante02.nome = "Yuri";
         estudante02.sexo = 'M';
 
-        //O Imprime faz a referencia da mesma variavel de referencia do estudante01
-        imprime.Imprime(estudante01);
+        //Print o metodo que esta dentro do class Estudante
+        estudante01.imprime();
+        estudante02.imprime();
 
-        imprime.Imprime(estudante02);
-    
-
-
-
+        System.out.println();
     }
 }
