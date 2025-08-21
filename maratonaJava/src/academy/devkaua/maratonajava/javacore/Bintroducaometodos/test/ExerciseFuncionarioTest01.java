@@ -11,6 +11,6 @@ public class ExerciseFuncionarioTest01 {
 
         //Chamada dos metodos
         funcionario.imprimir();
-        funcionario.mediaSalariaResultado(funcionario.salarios);x
+        funcionario.mediaSalariaResultado(funcionario.salarios);
     }
 }
