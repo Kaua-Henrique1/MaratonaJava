@@ -36,16 +36,16 @@
 
 ---
 
-# **Parâmetros em Java**
+## **Parâmetros em Java**
 
-## Tipos primitivos
+### Tipos primitivos
 - Os tipos primitivos são passados **por valor**, ou seja, quando um tipo primitivo é enviado para um método, é feita uma **cópia** do seu valor. Isso significa que qualquer alteração feita dentro do método não afeta a variável original fora dele.
 
 - Exemplos de tipos primitivos: `int`, `double`, `char`, `boolean`.
 
 ---
 
-## Objetos (tipos por referência)
+### Objetos (tipos por referência)
 Já os objetos são passados como **referência**. Isso quer dizer que a variável não guarda o objeto em si, mas sim uma **referência (um endereço na memória)** para esse objeto.
 
 Quando um objeto é passado para um método, o método recebe essa referência e, portanto, pode **alterar diretamente o objeto original**. Dessa forma, as mudanças realizadas dentro do método refletem fora dele, pois ambos apontam para o mesmo objeto em memória.
@@ -59,3 +59,5 @@ Ter cuidado para mudar a variaveis do objeto depois que ja tenha passado por ref
 ##  Resumindo
 - **Tipos primitivos** → são passados por valor (cópia).
 - **Objetos** → são passados por referência (o método manipula o mesmo objeto).
+
+--- 
