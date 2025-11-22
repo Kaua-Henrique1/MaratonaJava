@@ -6,14 +6,21 @@ public class Jogador {
 
     public void imprimi() {
         System.out.println(this.nome);
-        if (time != null) {
-            System.out.println(time.getNome());
-        }
+        if (time == null) return;
+
+        System.out.println(time.getNome());
+
     }
 
     public Jogador(String nome) {
         this.nome = nome;
     }
+
+    public Jogador(String nome, Time time) {
+        this.nome = nome;
+        this.time = time;
+    }
+
 
     public Time getTime() {
         return time;

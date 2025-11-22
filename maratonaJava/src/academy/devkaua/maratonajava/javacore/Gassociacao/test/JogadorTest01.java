@@ -13,5 +13,6 @@ public class JogadorTest01 {
         jogador1.setTime(time);
 
         jogador1.imprimi();
+
     }
 }

@@ -2,13 +2,13 @@ package academy.devkaua.maratonajava.javacore.Gassociacao.domain;
 
 public class Time {
     private String nome;
-    private jogador[] jogadores;
+    private Jogador[] jogadores;
 
     public Time(String nome) {
         this.nome = nome;
     }
 
-    public Time(String nome, jogador[] jogadores) {
+    public Time(String nome, Jogador[] jogadores) {
         this.nome = nome;
         this.jogadores = jogadores;
     }
@@ -16,8 +16,8 @@ public class Time {
     public void imprimi() {
         System.out.println(this.nome);
         if (this.jogadores == null) return;
-        for (String jogadores : jogador) {
-            System.out.println(this.nome);
+        for (Jogador jogador : jogadores) {
+            System.out.println(jogador.getNome());
         }
     }
 
@@ -27,5 +27,13 @@ public class Time {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public Jogador[] getJogadores() {
+        return jogadores;
+    }
+
+    public void setJogadores(Jogador[] jogadores) {
+        this.jogadores = jogadores;
     }
 }
