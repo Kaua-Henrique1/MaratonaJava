@@ -18,14 +18,19 @@ public class Seminario {
     }
 
     public void imprimi() {
+        System.out.println("-------------");
+        System.out.println("Seminario: ");
         System.out.println(this.titulo);
         System.out.println(this.local);
-
-        System.out.println(professor.getNome());
-        System.out.println(professor.getEspecielidade());
+        System.out.println("-------------");
+        System.out.println("Professor: "+this.professor.getNome());
+        System.out.println("Especielidade: "+this.professor.getEspecielidade());
+        System.out.println("-------------");
 
         if (estudante == null) return;
-        for ( Aluno aluno: estudante) {
+        System.out.println("-------------");
+        System.out.println("Aluno(s): ");
+        for ( Aluno aluno: this.estudante) {
             System.out.println(aluno.getNome());
         }
     }

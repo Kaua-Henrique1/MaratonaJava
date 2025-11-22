@@ -11,10 +11,10 @@ public class Professor {
     }
 
     public void imprimi() {
-        System.out.println(nome);
-        System.out.println(especielidade);
+        System.out.println(this.nome);
+        System.out.println(this.especielidade);
 
-        for (Seminario seminarios: seminario) {
+        for (Seminario seminarios: this.seminario) {
             System.out.println(seminarios.getTitulo());
         }
     }

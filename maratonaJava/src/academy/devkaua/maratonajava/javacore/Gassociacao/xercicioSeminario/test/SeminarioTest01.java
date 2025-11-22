@@ -26,13 +26,13 @@ public class SeminarioTest01 {
         seminario2.setEstudante(alunosSeminario2);
 
         System.out.println("--- seminario1 ---");
-
+        seminario1.imprimi();
 
         System.out.println("--- seminario2 ---");
-
+        seminario2.imprimi();
 
         System.out.println("--- seminario3 ---");
-
+        seminario3.imprimi();
 
     }
 }
